@@ -1,0 +1,29 @@
+{
+  "name": "firestore-shared-hooks",
+  "version": "0.0.1",
+  "description": "Firestore React hooks using a shared context",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "default": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "repository": "https://github.com/clarkmalmgren/firestore-shared-hooks",
+  "author": "Clark Malmgren",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.63",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "firebase": "^10.8.1",
+    "react": "^18.2.0"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
